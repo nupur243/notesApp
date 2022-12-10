@@ -1,0 +1,13 @@
+<div>
+    <form #userForm="ngForm" (ngSubmit)="sendData(userForm.value)">
+    <div class="heading form-group">
+        <label>Title</label>
+        <input type="text" class="form-control"  ngModel name="title" >
+    </div>
+    <div class="note form-group">
+        <label>Note</label>
+        <textarea class="form-control"  ngModel name="content" >write here</textarea>
+    </div>
+    <button class="btn btn-primary"  mat-raised-button type="submit"> Submit</button>
+</form>
+</div>
