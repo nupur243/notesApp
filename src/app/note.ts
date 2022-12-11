@@ -1,6 +1,6 @@
 export class Note {
 
-   title: Text | undefined
-   content:Text | undefined
+   title: string | undefined
+   content:string | undefined
     
 }
